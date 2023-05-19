@@ -1,0 +1,21 @@
+.char {
+    text-align: center;
+    font-family: "frankfurt";
+    font-size: 80px;
+    color: #9293ff;
+    -webkit-text-stroke: 0.1px black;
+  }
+  .obtrusive{
+      text-align: center;
+    font-family: "frankfurt";
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  
+  }
+  .pic3{
+      height: 350px;
+      width: 350px;
+      margin-left: 25px;
+      margin-top: -10px;
+    }
