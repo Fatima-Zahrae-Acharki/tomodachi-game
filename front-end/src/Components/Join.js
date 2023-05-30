@@ -2,11 +2,11 @@ import React from "react";
 import "../OnlineOffline.css";
 
 
-function OnlineOffline() {
+function Join() {
   return (
     <div>
         <div className="div1">
-          <img className="profile" src="./assets/user1.png"></img>
+          <img className="profile" src="./assets/avatar.png"></img>
           <p>Name: </p>
           <p>lvl: </p>
           <p>exp: </p>
@@ -19,24 +19,26 @@ function OnlineOffline() {
         </div>
         <div className="div3">
           <div>
-            <img className="frame4" src="./assets/frame4.png"></img>
-            <img className="offline" src="./assets/offline.png"></img>
-            <p className="Offline">OFFLINE</p>
+            <img className="frame2" src="./assets/frame2.png"></img>
+            <img className="pen" src="./assets/pen.png"></img>
+            <p>MAKE GAME</p>
           </div>
           <div>
-            <img className="frame3" src="./assets/frame3.png"></img>
-            <img className="online" src="./assets/online.png"></img>
-            <p className="Online">ONLINE</p>
+            <img className="frame1" src="./assets/frame1.png"></img>
+            <img className="join" src="./assets/join.png"></img>
+            <p>JOIN FIND</p>
+          </div>
+          <div>
+            <img className="frame2" src="./assets/frame2.png"></img>
+            <img className="searching" src="./assets/searching.png"></img>
+            <p>FIND</p>
           </div>
         </div>
         <div className="btn">
           <button className="btn1">BACK</button>
         </div>
-        <div className="store">
-          <img className="store1" src="../assets/shop.png"></img>
-        </div>
     </div>
   )
 }
 
-export default OnlineOffline;
+export default Join;
