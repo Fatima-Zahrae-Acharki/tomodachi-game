@@ -1,0 +1,56 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+#crownnn {
+  height: 41px;
+  position: absolute;
+  top: -31px;
+  left: -9px;
+}
+#rank {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 80px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "frankfurt";
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+  top: 134px;
+  left: 75px;
+}
+#pnames {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: 141px;
+  left: 163px;
+}
+#pic8{
+  height: 600px;
+  position: absolute;
+  left: 396px;
+  top: 17px;
+}
+#pointss {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: 141px;
+  left: 1013px;
+}

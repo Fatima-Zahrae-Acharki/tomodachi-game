@@ -1,0 +1,146 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+#profile {
+  display: flex;
+  position: absolute;
+  top: -36px;
+  left: 217px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "frankfurt";
+  color: #9293ff;
+  -webkit-text-stroke: 0.1px black;
+  background: none;
+}
+#avatar1 {
+  display: flex;
+  position: absolute;
+  top: 155px;
+  left: 282px;
+  height: 140px;
+}
+#player-name {
+  display: flex;
+  position: absolute;
+  top: 330px;
+  left: 263px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "porky's";
+}
+#level1 {
+  display: flex;
+  position: absolute;
+  top: 396px;
+  left: 315px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "porky's";
+}
+#frame6 {
+  display: flex;
+  position: absolute;
+  top: -344px;
+  height: 600px;
+  background: none;
+}
+.items2 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 341px;
+}
+#changeName {
+  display: flex;
+  position: absolute;
+  top: -165px;
+  left: 770px;
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  background-color: white;
+}
+#changeBtn {
+  display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -56px;
+    left: 853px;
+    font-family: "frankfurt";
+    font-size: 25px;
+    background: none;
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+    height: 50px;
+    width: 123px;
+    background-image: url(../../../public/assets/btn2.png);
+    background-size: 117px;
+    background-repeat: no-repeat;
+    border-style: none;
+}
+#changeBtn:hover {
+  animation: shake3856 0.6s linear infinite both;
+}
+#or {
+  display: flex;
+  position: absolute;
+  top: 2px;
+  left: 892px;
+  font-family: "porky's";
+  font-size: 25px;
+  background: none;
+  color: black;
+  -webkit-text-stroke: 0.7px black;
+}
+#removeAccount {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 103px;
+  left: 798px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  background: none;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 234px;
+  background-image: url(../../../public/assets/btn3.png);
+  background-size: 229px;
+  background-repeat: no-repeat;
+  border-style: none;
+ 
+}
+#removeAccount:hover {
+  animation: shake3856 0.7s linear infinite both;
+}
+.profileComp {
+  display: flex;
+}
+
+#back1 {
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 119px;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+  position: absolute;
+  top: 549px;
+  left: 34px;
+}
+#back1:hover {
+  animation: shake3856 0.3s linear infinite both;
+}

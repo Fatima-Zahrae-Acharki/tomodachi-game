@@ -1,0 +1,146 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+
+  
+
+#pnamediv {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 58px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: 25px;
+  left: 163px;
+}
+#playeraddedpic {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  /* line-height: 80px; */
+  top: 37px;
+  left: 52px;
+}
+#proofile {
+  height: 56px;
+}
+
+.formgroup {
+  display: flex;
+  width: 270px;
+  height: 176px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  top: -71px;
+  left: -18px;
+}
+.AddForm {
+  display: flex;
+  width: 250px;
+  height: 324px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 114px;
+  position: absolute;
+  top: 256px;
+  left: 743px;
+}
+#pic9{
+    width: 400px;
+    position: absolute;
+    top: 78px;
+    left: 386px;
+}
+#adddPlayer {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  background: none;
+}
+
+#oobtrusive {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+::placeholder {
+  color: rgb(196, 196, 196);
+}
+.buuuttons {
+  display: flex;
+  position: absolute;
+  top: 126px;
+}
+#backk {
+    display: flex;
+    position: absolute;
+    top: 209px;
+    left: 58px;
+    justify-content: center;
+    align-items: center;
+}
+
+#addd {
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+#addd:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+
+#playy {
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 50px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+#playy:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+#backk {
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 50px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+#backk:hover {
+  animation: shake3856 0.3s linear infinite both;
+}

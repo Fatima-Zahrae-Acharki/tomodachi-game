@@ -1,0 +1,104 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+.tomo {
+    text-align: center;
+    font-family: "frankfurt";
+    font-size: 80px;
+    color: #9293ff;
+    -webkit-text-stroke: 0.1px black;
+    /* margin-top: 200px; */
+    /* animation : rubberband 800ms alternate ease-out; */
+    animation : rubberband 1000ms linear infinite both;
+    
+  }
+  @keyframes rubberband {
+    0%{
+        transform: scaleX(1);
+    }
+    40%{
+        transform: scaleX(1.12) scaleY(0.75);
+    }
+    55%{
+        transform: scaleX(0.85) scaleY(1);
+    }
+    65%{
+        transform: scaleX(1.09) scaleY(0.85);
+    }
+    75%{
+        transform: scaleX(0.9)  scaleY(1);
+    }
+    90%{
+        transform: scaleX(1.05) scaleY(0.95);
+    }
+    100%{
+        transform: scaleX(1) scaleY(1);
+    }
+  }
+  .t1 {
+    font-family: "night in tokyo";
+    font-size: 40px;
+    margin-left: 800px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+  }
+  .pic1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+  }
+  /* ///////////////////////////////////////BUTTONS////////////// */
+  .btnstart {
+    /* background-color: #ff8dd7;
+    border-radius: 40px; */
+    font-family: "frankfurt";
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+    /* border: solid black 0.1px; */
+    height: 50px;
+    width: 120px;
+    background-image: url(../../../public/assets/btn.png);
+    background-size: 117px;
+    background-repeat: no-repeat;
+    border-style: none;
+  }
+  .btnstart:hover {
+    animation: shake3856 0.3s linear infinite both;
+    /* height: 60px;
+    width: 130px; */
+    background-size: 118px;
+  }
+  @keyframes shake3856 {
+    0% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+  
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      -webkit-transform: translate(2px, 2px);
+      transform: translate(2px, 2px);
+    }
+  
+    80% {
+      -webkit-transform: translate(2px, -2px);
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+  }
+  

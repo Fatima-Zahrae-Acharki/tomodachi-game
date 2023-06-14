@@ -1,0 +1,131 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+.div1 {
+  display: flex;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+  flex-direction: column;
+  font-weight: bold;
+  font-family: "porky's";
+  align-items: center;
+}
+/* p{
+   font-weight: bold; */
+/* font-family: 'Hiruko'; */
+/* } */
+#link{
+  text-decoration:none;
+}
+.div2 {
+  display: flex;
+  margin-left: 1008px;
+  margin-top: -52px;
+  font-weight: bold;
+  font-family: "porky's";
+  position: absolute;
+  top: 94px;
+  align-items: center;
+}
+.div3 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 135px;
+  left: 43px;
+}
+#profilee {
+  height: 70px;
+  position: absolute;
+  left: 3px;
+  top: 14px;
+}
+#name1{
+  position: absolute;
+  left: 90px;
+}
+#lvll{
+  position: absolute;
+  top: 25px;
+  left: 90px;
+}
+#expp{
+  position: absolute;
+  top: 45px;
+  left: 90px;
+}
+#crown {
+  height: 30px;
+}
+#onigiri {
+  height: 30px;
+}
+#online {
+  position: relative;
+  right: 11px;
+  top: -216px;
+  width: 150px;
+  background: none;
+}
+#Online {
+  margin-top: -150px;
+  font-family: "frankfurt";
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+  background: none;
+}
+/* #Online:hover {
+  animation: rubberband 0.9s linear infinite both;
+} */
+#offline {
+  position: relative;
+  right: 20px;
+  top: -210px;
+  width: 150px;
+  background: none;
+
+}
+#Offline {
+  margin-top: -150px;
+  font-family: "frankfurt";
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+  background: none;
+}
+#Offline:hover {
+  animation: rubberband 0.9s linear infinite both;
+}
+#btn11 {
+  /* background-color: #9293ff;
+  border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 49px;
+  width: 119px;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+  position: absolute;
+  top: 525px;
+  left: 566px;
+}
+#btn11:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+#store1 {
+  height: 52px;
+  position: absolute;
+  top: 523px;
+  right: 35px;
+}
+#store1:hover {
+  height: 60px;
+}

@@ -1,0 +1,223 @@
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+#link{
+  text-decoration: none;
+}
+.loginpic {
+  display: flex;
+  margin-top: 59px;
+}
+.Registerpic {
+  display: flex;
+  justify-content: flex-end;
+  height: 618px;
+}
+.acc {
+  font-weight: bold;
+  margin-top: 112px;
+}
+.acc1 {
+  font-weight: bold;
+  margin-top: 153px;
+}
+.a {
+  color: #9293ff;
+  text-decoration: none;
+}
+.elements {
+  /* margin-left: 735px; */
+  /* margin-top: -482px; */
+  position: absolute;
+  top: 300px;
+  top: 383px;
+  left: 666px;
+}
+.elements1 {
+  position: absolute;
+  top: 300px;
+  top: 383px;
+  left: 322px;
+}
+.inputElements {
+  /* display: inline-grid;
+  width: 250px;
+  height: 100px; */
+
+  display: flex;
+  width: 250px;
+  height: 232px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 114px;
+  position: absolute;
+  top: -239px;
+  left: -130px;
+}
+.inputElements1 {
+  display: flex;
+  width: 250px;
+  height: 324px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 114px;
+  position: absolute;
+  top: -272px;
+  left: -130px;
+}
+
+.email {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.password {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.email1 {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.username {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.password1 {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+.confirmp {
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+::placeholder {
+  color: rgb(196, 196, 196);
+}
+
+.buttons {
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-top: 60px; */
+  position: absolute;
+  top: 17px;
+}
+.buttons1 {
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-top: 60px; */
+  position: absolute;
+  top: 78px;
+}
+.back {
+  /* background-color: #9293ff;
+  border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+.back:hover {
+  animation: shake3856 0.3s linear infinite both;
+  /* height: 60px;
+  width: 130px; */
+}
+
+.login {
+  /* background-color: #ff8dd7;
+  border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 49px;
+  width: 120px;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+.login:hover {
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: shake3856 0.3s linear infinite both;
+  /* height: 60px;
+  width: 130px; */
+}
+
+.back1 {
+  /* background-color: #9293ff;
+    border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 50px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+  
+}
+.back1:hover {
+  animation: shake3856 0.3s linear infinite both;
+  /* height: 60px;
+  width: 130px; */
+}
+.register {
+  /* background-color: #ff8dd7;
+  border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 50px;
+  width: 120px;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+.register:hover {
+  animation: shake3856 0.3s linear infinite both;
+  /* height: 60px;
+  width: 130px; */
+}

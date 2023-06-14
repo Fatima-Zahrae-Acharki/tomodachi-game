@@ -1,0 +1,177 @@
+/* * {
+  cursor: url("../public/assets/gam858.ani"), auto;
+} */
+* {
+  background-color: #fff1fa;
+ text-align: center;
+}
+.div11 {
+  display: flex;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+  flex-direction: column;
+  font-weight: bold;
+  font-family: "porky's";
+  align-items: center;
+}
+/* p{
+     font-weight: bold; */
+/* font-family: 'Hiruko'; */
+/* } */
+.div22 {
+  display: flex;
+  margin-left: 1008px;
+  margin-top: -52px;
+  font-weight: bold;
+  font-family: "porky's";
+  position: absolute;
+  top: 94px;
+  align-items: center;
+}
+.div33 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+  left: 104px;
+}
+/* #pprofile{
+      height: 70px;
+  } */
+
+#pprofile {
+  height: 70px;
+  position: absolute;
+  left: 3px;
+  top: 14px;
+}
+#name2 {
+  position: absolute;
+  left: 90px;
+}
+#lvl2 {
+  position: absolute;
+  top: 25px;
+  left: 90px;
+}
+#exp2 {
+  position: absolute;
+  top: 45px;
+  left: 90px;
+}
+#crownn {
+  height: 30px;
+}
+#onigirii {
+  height: 30px;
+}
+#frame1 {
+  width: 400px;
+  position: absolute;
+}
+#frame2 {
+  width: 400px;
+  position: absolute;
+}
+#frame3 {
+  width: 400px;
+  position: absolute;
+}
+#first {
+  position: relative;
+  left: -56px;
+  top: 142px;
+}
+#second {
+  position: relative;
+  left: 332px;
+  top: 142px;
+}
+#third {
+  position: relative;
+  left: 724px;
+  top: 142px;
+}
+#pen {
+  position: absolute;
+  width: 70px;
+  background: none;
+  top: 119px;
+  left: 155px;
+}
+#join {
+  position: absolute;
+  width: 70px;
+  background: none;
+  top: 119px;
+  left: 155px;
+}
+#searching {
+  position: absolute;
+  width: 70px;
+  background: none;
+  top: 119px;
+  left: 155px;
+}
+#make {
+  font-family: "frankfurt";
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.7px black;
+  position: absolute;
+  background: none;
+  top: 300px;
+  left: 146px;
+}
+#make:hover {
+  animation: rubberband 0.9s linear infinite both;
+}
+#Join {
+  font-family: "frankfurt";
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.7px black;
+  position: absolute;
+  background: none;
+  top: 300px;
+  left: 146px;
+}
+#Join:hover {
+  animation: rubberband 0.9s linear infinite both;
+}
+#Find {
+  font-family: "frankfurt";
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.7px black;
+  position: absolute;
+  background: none;
+  top: 300px;
+  left: 146px;
+}
+#Find:hover {
+  animation: rubberband 0.9s linear infinite both;
+}
+
+#butn1 {
+  /* background-color: #9293ff;
+    border-radius: 40px; */
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  /* border: solid black 0.1px; */
+  height: 49px;
+  width: 119px;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+  position: absolute;
+  top: 549px;
+  left: 554px;
+}
+#butn1:hover {
+  animation: shake3856 0.3s linear infinite both;
+}

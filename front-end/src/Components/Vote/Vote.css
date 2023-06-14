@@ -1,0 +1,249 @@
+* {
+  background-color: #fff1fa;
+  text-align: center;
+}
+#playeeerNameee {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: 141px;
+  left: 163px;
+  /* letter-spacing: 5px; */
+}
+#playeeeerNameee1 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: 141px;
+  right: 226px;
+  /* letter-spacing: 5px; */
+}
+#profiiile11 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  /* line-height: 80px; */
+  top: 141px;
+  left: 52px;
+}
+.prooofilesss {
+  height: 80px;
+}
+#proooofile22 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 141px;
+  right: 457px;
+}
+.proooofile22 {
+  height: 80px;
+}
+#Votebttn {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 141px;
+  left: 52px;
+}
+.Voootebttn1 {
+  position: absolute;
+  top: 12px;
+  left: 344px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn1:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn2 {
+  position: absolute;
+  top: 94px;
+  left: 344px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn2:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn3 {
+  position: absolute;
+  top: 176px;
+  left: 344px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn3:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn4 {
+  position: absolute;
+  top: 254px;
+  left: 344px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn4:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn5 {
+  position: absolute;
+  top: 333px;
+  left: 344px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn5:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn6 {
+  position: absolute;
+  top: 19px;
+  right: 30px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn6:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn7 {
+  position: absolute;
+  top: 94px;
+  right: 30px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn7:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn8 {
+  position: absolute;
+  top: 176px;
+  right: 30px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn8:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn9 {
+  position: absolute;
+  top: 255px;
+  right: 30px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn9:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+.Voootebttn0 {
+  position: absolute;
+  top: 334px;
+  right: 30px;
+  font-family: "frankfurt";
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.7px black;
+  height: 49px;
+  width: 120px;
+  background: none;
+  background-image: url(../../../public/assets/btn2.png);
+  background-size: 115px;
+  background-repeat: no-repeat;
+  border-style: none;
+}.Voootebttn0:hover{
+  animation: shake3856 0.3s linear infinite both;
+}
+#Votebttn1 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 141px;
+  right: 19px;
+}
