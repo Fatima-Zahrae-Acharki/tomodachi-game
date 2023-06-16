@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Profile/ViewProfile.css";
 import { Link } from "react-router-dom";
 function ViewProfile() {
+  const [info3, setInfo] = useState({
+    ChangeName: "",
+  });
+  const handleChange3 = (e) => {
+    const { name, value } = e.target;
+    setInfo({ ...info3, [name]: value });
+  };
+  const handlesubmit3 = async () => {
+    console.log(info3);
+    console.log("changed");
+    // const res = await axios.post("/api/ChangeName", info);
+  };
   return (
     <div className="all1">
       <div className="profileComp">
@@ -16,8 +28,9 @@ function ViewProfile() {
       </div>
       <div className="items2">
         <img id="frame6" src="../assets/frame6.png" />
-        <input type="text" placeholder="Change name" id="changeName"></input>
-        <button id="changeBtn">CHANGE</button>
+        <input type="text" placeholder="Change name" id="changeName" onChange={handleChange3}
+            name="ChangeName"></input>
+        <button id="changeBtn" onClick={handlesubmit3}>CHANGE</button>
         <p id="or">OR</p>
         <button id="removeAccount">REMOVE ACCOUNT</button>
       </div>

@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "../AddPlayer/AddPlayer.css";
 import { Link } from "react-router-dom";
 
 function AddPlayer() {
+    const [info2, setInfo] = useState({
+      PlayerName: "",
+      ObtrusivePlayer: "",
+    });
+    const handleChange2 = (e) => {
+      const { name, value } = e.target;
+      setInfo({ ...info2, [name]: value });
+    };
+    const handlesubmit2 = async () => {
+      console.log(info2);
+      console.log("added");
+      // const res = await axios.post("/api/AddPlayer", info);
+    };
   return (
     <div>
       <div className="PlayerAdded">
@@ -36,13 +49,13 @@ function AddPlayer() {
       </div>
       <div className="AddForm">
         <div className="formgroup">
-          <input type="text" placeholder="Add Player" id="adddPlayer"></input>
-          <input type="text" placeholder="Obtrusive" id="oobtrusive"></input>
+          <input type="text" placeholder="Add Player" id="adddPlayer" name="PlayerName" onChange={handleChange2}></input>
+          <input type="number" placeholder="Obtrusive" id="oobtrusive" name="ObtrusivePlayer" onChange={handleChange2}></input>
         </div>
         <div className="buuuttons">
           <button id="addd">ADD+</button>
-          <Link to="/PlayersLoading">
-          <button id="playy">PLAY</button>
+          <Link to="/Obtrusive">
+          <button id="playy" onClick={handlesubmit2}>PLAY</button>
           </Link>
         </div>
         <Link to="/OnlineOffline" id="link">
