@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function AddPlayer() {
     const [info2, setInfo] = useState({
       PlayerName: "",
-      ObtrusivePlayer: "",
+      // ObtrusivePlayer: "",
     });
     const handleChange2 = (e) => {
       const { name, value } = e.target;
@@ -47,21 +47,23 @@ function AddPlayer() {
           <img src="../assets/pic9.png" id="pic9"></img>
         </div>
       </div>
-      <div className="AddForm">
+      <form className="AddForm" onSubmit={handlesubmit2}>
         <div className="formgroup">
           <input type="text" placeholder="Add Player" id="adddPlayer" name="PlayerName" onChange={handleChange2}></input>
-          <input type="number" placeholder="Obtrusive" id="oobtrusive" name="ObtrusivePlayer" onChange={handleChange2}></input>
+          {/* <input type="number" placeholder="Obtrusive" id="oobtrusive" name="ObtrusivePlayer" onChange={handleChange2}></input> */}
         </div>
         <div className="buuuttons">
-          <button id="addd">ADD+</button>
+          <button id="addd"  
+          // onClick={handlesubmit2}
+           type="submit">ADD+</button>
           <Link to="/Obtrusive">
-          <button id="playy" onClick={handlesubmit2}>PLAY</button>
+          <button id="playy">PLAY</button>
           </Link>
         </div>
         <Link to="/OnlineOffline" id="link">
           <button id="backk">BACK</button>
           </Link>
-      </div>
+      </form>
     </div>
   );
 }
