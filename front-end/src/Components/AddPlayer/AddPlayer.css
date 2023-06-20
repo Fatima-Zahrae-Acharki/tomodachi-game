@@ -144,3 +144,17 @@
 #backk:hover {
   animation: shake3856 0.3s linear infinite both;
 }
+
+
+#deletebtn1{
+  height: 30px;
+  width: 30px;
+  background-color: #FF8DD7;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: "porky's";
+  color: white;
+}#deletebtn1:hover{
+  height: 35px;
+  width: 35px;
+}

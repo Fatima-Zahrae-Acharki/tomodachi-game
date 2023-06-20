@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PlayersessionController;
+use App\Models\Playersession;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -23,3 +25,10 @@ Route::post('register', 'App\Http\Controllers\PlayerController@register');
 
 Route::get('test', 'App\Http\Controllers\PlayerController@test');
 
+Route::post('/addPlayer', [PlayersessionController::class ,'addPlayer']);
+Route::get('/show', [PlayersessionController::class ,'show']);
+
+Route::get('edit/{id}', [PlayersessionController::class, 'edit']); 
+Route::put('/update/{id}', [PlayersessionController::class, 'update']);
+
+Route::delete('/delete/{id}', [PlayersessionController::class, 'delete']);

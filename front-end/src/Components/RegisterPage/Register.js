@@ -25,7 +25,7 @@ function Register() {
   const [confirmPass, setconfirmPass] = useState("");
 
   const handleSubmit1 = async (e) => {
-    e.preventDefault();
+    e.preventDefault();// to not rel
 
     if (confirmPass === password) {
       const response = await fetch("http://127.0.0.1:8000/api/register", {

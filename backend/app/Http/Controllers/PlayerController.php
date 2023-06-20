@@ -39,4 +39,8 @@ class PlayerController extends Controller
         return User::all();
 
     }
+
+
+
+    
 }

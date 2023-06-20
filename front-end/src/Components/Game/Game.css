@@ -2,6 +2,9 @@
     background-color: #fff1fa;
    text-align: center;
   }
+
+
+
 .container11 {
     /* width: 100%; */
     position: absolute;
@@ -38,10 +41,16 @@
     left: 693px;
     background: none;
 }
+
+
+/* .playerNameee2{
+    margin-top: 30px;
+} */
 #playerNameee31 {
-    position: absolute;
-    left: -357px;
-    top: 98px;
+    /* position: absolute; */
+    /* left: -357px;
+    top: 98px; */
+    margin-top: 30px;
     background: none;
 }
 #playerNameee32 {
@@ -225,6 +234,34 @@
 }#no:hover{
     height: 30px;
     width: 55px;
+}
+
+
+
+
+#pnamediv111 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 58px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "porky's";
+  color: black;
+  top: -9px;
+  left: -297px;
+}
+#playeraddedpic111 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  /* line-height: 80px; */
+  left: -384px;
+}
+#proofile111 {
+  height: 56px;
 }
 
 /* #backgroundd{
