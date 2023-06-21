@@ -1,5 +1,6 @@
 import React from "react";
 import "../Guess/GuessTheSub.css";
+import { Link } from "react-router-dom";
 
 function GuessTheSub() {
   return (
@@ -11,10 +12,16 @@ function GuessTheSub() {
       </div>
 
       <div className="buttons2">
-        <button id="btn1">SUB</button>
-        <button id="btn2">SUB</button>
-        <button id="btn3">SUB</button>
-        <button id="btn4">SUB</button>
+        <Link to="/Points">
+        <button id="btn1">SUB</button> 
+        </Link>
+        <Link to="/Points">
+        <button id="btn2">SUB</button></Link>
+        <Link to="/Points">
+        <button id="btn3">SUB</button></Link>
+        <Link to="/Points">
+        <button id="btn4">SUB</button></Link>
+       
       </div>
 
       <div className="rin">

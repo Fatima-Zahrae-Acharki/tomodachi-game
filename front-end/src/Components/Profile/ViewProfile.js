@@ -1,19 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Profile/ViewProfile.css";
 import { Link } from "react-router-dom";
+import axios from "axios";
+
 function ViewProfile() {
-  const [info3, setInfo] = useState({
-    ChangeName: "",
-  });
-  const handleChange3 = (e) => {
-    const { name, value } = e.target;
-    setInfo({ ...info3, [name]: value });
+
+
+  const [players , setPlayers]=useState([])
+
+  const getPlayers=async()=>{
+    const res = await axios.get("http://127.0.0.1:8000/api/show")
+    setPlayers(res.data)
+    console.log(players)
   };
-  const handlesubmit3 = async () => {
-    console.log(info3);
-    console.log("changed");
-    // const res = await axios.post("/api/ChangeName", info);
-  };
+
+  useEffect(()=>{
+    getPlayers()
+  },[])
+
+  
+
   return (
     <div className="all1">
       <div className="profileComp">
@@ -28,9 +34,9 @@ function ViewProfile() {
       </div>
       <div className="items2">
         <img id="frame6" src="../assets/frame6.png" />
-        <input type="text" placeholder="Change name" id="changeName" onChange={handleChange3}
+        <input type="text" placeholder="Change name" id="changeName" 
             name="ChangeName"></input>
-        <button id="changeBtn" onClick={handlesubmit3}>CHANGE</button>
+        <button id="changeBtn" type="submit">CHANGE</button>
         <p id="or">OR</p>
         <button id="removeAccount">REMOVE ACCOUNT</button>
       </div>
