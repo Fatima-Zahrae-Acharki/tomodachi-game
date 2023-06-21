@@ -32,7 +32,7 @@ Route::post('/addPlayer', [PlayersessionController::class ,'addPlayer']);
 Route::get('/show', [PlayersessionController::class ,'show']);
 
 Route::get('edit/{id}', [PlayersessionController::class, 'edit']); 
-Route::put('/update/{id}', [PlayersessionController::class, 'update']);
+Route::post('/update/{id}', [PlayersessionController::class, 'update']);
 
 Route::delete('/delete/{id}', [PlayersessionController::class, 'delete']);
 

@@ -31,7 +31,7 @@ class PlayersessionController extends Controller
     public function update(Request $req,$id)
     {
         $data = Playersession::Where('id',$id)->first();
-       $data->playerName = $req->input('playerName');
+        $data->playerName = $req->name;
 
        $data->save();
         return response()->json($data);        
